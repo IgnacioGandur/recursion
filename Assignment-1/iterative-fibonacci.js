@@ -10,7 +10,6 @@ function fibs(num, arr = [0,1,])
     {
         for (let i = 2; i < num; i++)  
         {
-            // console.log(arr);
             let number = (arr[i - 1]) + (arr[i - 2]);
             arr.push(number);
         }
